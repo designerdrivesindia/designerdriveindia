@@ -1,6 +1,6 @@
 import type { CarCategory, Country, Season, TripType } from "@/types";
 
-export const COUNTRIES: Country[] = ["India", "Nepal", "Bhutan", "Sri Lanka"];
+export const COUNTRIES: Country[] = ["India", "Nepal", "Bhutan", "Sri Lanka", "Dubai", "Thailand", "Maldives"];
 
 export const TRIP_TYPES: TripType[] = [
   "Honeymoon",
@@ -9,7 +9,9 @@ export const TRIP_TYPES: TripType[] = [
   "Luxury",
   "Pilgrimage",
   "Wildlife",
-  "Group",
+  "Group Tour",
+  "Student college Tour",
+  "Education Tour",
 ];
 
 export const SEASONS: Season[] = [

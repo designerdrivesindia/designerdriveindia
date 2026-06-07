@@ -32,12 +32,12 @@ const services = [
   "Visa, permit and logistics handling",
 ];
 
-const team = [
-  { name: "Imran Qadri", role: "Founder & Kashmir Specialist", img: "photo-1507003211169-0a1dd7228f2d" },
-  { name: "Meera Pillai", role: "South India Specialist", img: "photo-1494790108377-be9c29b29330" },
-  { name: "Tenzin Norbu", role: "Himalaya & High-Altitude Guide", img: "photo-1500648767791-00dcc994a43e" },
-  { name: "Aarav Sharma", role: "Guest Experience Lead", img: "photo-1519085360753-af0119f7cbe7" },
-];
+// const team = [
+//   { name: "Imran Qadri", role: "Founder & Kashmir Specialist", img: "photo-1507003211169-0a1dd7228f2d" },
+//   { name: "Meera Pillai", role: "South India Specialist", img: "photo-1494790108377-be9c29b29330" },
+//   { name: "Tenzin Norbu", role: "Himalaya & High-Altitude Guide", img: "photo-1500648767791-00dcc994a43e" },
+//   { name: "Aarav Sharma", role: "Guest Experience Lead", img: "photo-1519085360753-af0119f7cbe7" },
+// ];
 
 export default function AboutPage() {
   return (
@@ -81,7 +81,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal delay={120} className="relative aspect-[4/5] overflow-hidden rounded-xl">
               <Image
-                src="https://media1.thrillophilia.com/filestore/about_us_media/hero-banner/main-card.png?w=300&dpr=2?auto=format&fit=crop&w=1200&q=80"
+                src="https://i0.wp.com/sweettravelbee.com/wp-content/uploads/2024/09/img_7477-1.jpg?fit=1516%2C2100&ssl=1?w=300&dpr=2?auto=format&fit=crop&w=1200&q=80"
                 alt="A serene Kashmir morning"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -127,7 +127,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="bg-ink py-16 text-cream lg:py-24">
+      {/* <section className="bg-ink py-16 text-cream lg:py-24">
         <Container>
           <SectionHeading light align="center" eyebrow="The people" title="Meet the team" intro="Specialists who live and breathe these regions — and stay with you the whole way." />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -152,7 +152,7 @@ export default function AboutPage() {
             ))}
           </div>
         </Container>
-      </section>
+      </section> */}
 
       <CtaBanner />
     </>

@@ -3,7 +3,7 @@
  * These mirror the backend Prisma models so the API layer can return them directly.
  */
 
-export type Country = "India" | "Nepal" | "Bhutan" | "Sri Lanka";
+export type Country = "India" | "Nepal" | "Bhutan" | "Sri Lanka" | "Dubai" | "Thailand" | "Maldives";
 
 export type TripType =
   | "Honeymoon"
@@ -12,7 +12,10 @@ export type TripType =
   | "Luxury"
   | "Pilgrimage"
   | "Wildlife"
-  | "Group";
+  | "Group Tour"
+  | "Private Tour"
+  | "Student college Tour"
+  | "Education Tour";
 
 export type Season = "Spring" | "Summer" | "Monsoon" | "Autumn" | "Winter";
 

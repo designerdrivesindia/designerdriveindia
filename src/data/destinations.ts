@@ -223,6 +223,7 @@ export const destinations: Destination[] = [
       { title: "Yala National Park", description: "Among the best places on earth to spot leopards." },
       { title: "Galle Fort", description: "A Dutch-colonial walled town on the southern coast." },
     ],
+  
     travelTips: [
       "Reserve first-class train seats Kandy–Ella well ahead.",
       "Monsoon hits coasts at opposite times — plan the route by season.",
@@ -234,5 +235,107 @@ export const destinations: Destination[] = [
       { src: u("photo-1552055568-f8a45d6e3a5b"), alt: "Galle fort coast" },
     ],
     featured: false,
+  },
+  {
+    id: "dest-dubai",
+    slug: "dubai",
+    name: "Dubai",
+    country: "Dubai",
+    region: "United Arab Emirates · Arabian Gulf",
+    tagline: "Sky-high skylines, golden desert dunes",
+    heroImage: u("photo-1512453979798-5ea266f8880c"),
+    thumbnail: u("photo-1512453979798-5ea266f8880c", 900),
+    overview:
+      "A city that turned the desert into a vision of the future. Dubai pairs the world's tallest tower and record-breaking malls with old gold souks, dhow-lined creeks and the silence of the dunes beyond. Ride to the top of the Burj Khalifa, dine on the 124th floor, then trade glass towers for a sunset desert safari and a Bedouin feast under the stars.",
+    bestTimeToVisit:
+      "November–March, when days are warm, evenings are balmy and the desert is comfortable. Summer (June–September) is intensely hot but offers the lowest hotel rates.",
+    seasons: ["Winter", "Autumn", "Spring"],
+    tripTypes: ["Luxury", "Family", "Honeymoon"],
+    attractions: [
+      { title: "Burj Khalifa", description: "The world's tallest building — sunset views from the At The Top observation decks." },
+      { title: "Desert Safari", description: "Dune bashing, camel rides and a starlit Bedouin camp dinner in the Arabian sands." },
+      { title: "Burj Al Arab & Jumeirah", description: "The sail-shaped icon rising above Jumeirah's white-sand public beaches." },
+      { title: "Dubai Mall & Fountain", description: "Aquarium, ice rink and the choreographed Dubai Fountain show after dark." },
+      { title: "Old Dubai & Gold Souk", description: "Abra rides across Dubai Creek to the spice and gold markets of Deira." },
+    ],
+    travelTips: [
+      "Dress modestly in malls, souks and mosques — cover shoulders and knees.",
+      "Book Burj Khalifa and desert safari slots online in advance for the best times.",
+      "Fridays and public holidays alter mall and attraction timings — check ahead.",
+    ],
+    gallery: [
+      { src: u("photo-1512453979798-5ea266f8880c"), alt: "Dubai skyline with Burj Khalifa at dusk" },
+      { src: u("photo-1518684079-3c830dcef090"), alt: "Burj Al Arab from above" },
+      { src: u("photo-1582672060674-bc2bd808a8b5"), alt: "Burj Khalifa framed by palms" },
+    ],
+    featured: true,
+  },
+  {
+    id: "dest-thailand",
+    slug: "thailand",
+    name: "Thailand",
+    country: "Thailand",
+    region: "Southeast Asia · Gulf & Andaman Coast",
+    tagline: "Gilded temples, longtail boats, island calm",
+    heroImage: u("photo-1552465011-b4e21bf6e79a"),
+    thumbnail: u("photo-1552465011-b4e21bf6e79a", 900),
+    overview:
+      "The Land of Smiles moves from gilded temples and floating markets to limestone-fringed bays and powder-soft islands. Wander the glittering wats and street-food lanes of Bangkok, slow down amid the lantern-lit old town of Chiang Mai, then sail past karst cliffs to the turquoise waters of Krabi and Phi Phi.",
+    bestTimeToVisit:
+      "November–March for cool, dry weather across most of the country. The Andaman coast (Phuket, Krabi) is at its best December–April.",
+    seasons: ["Winter", "Spring"],
+    tripTypes: ["Honeymoon", "Family", "Adventure"],
+    attractions: [
+      { title: "Bangkok Temples & Grand Palace", description: "Wat Pho, Wat Arun and the Grand Palace alongside buzzing night markets." },
+      { title: "Railay & Krabi Beaches", description: "Longtail boats, sheer limestone cliffs and rock-climbing on hidden coves." },
+      { title: "Phi Phi Islands", description: "Maya Bay, snorkelling lagoons and viewpoints over emerald water." },
+      { title: "Chiang Mai & the North", description: "Mountain temples, ethical elephant sanctuaries and lantern festivals." },
+      { title: "Floating Markets", description: "Damnoen Saduak and Amphawa — paddle-boat vendors and canal-side eats." },
+    ],
+    travelTips: [
+      "Remove shoes and cover shoulders and knees when entering temples.",
+      "Agree tuk-tuk and longtail fares before you set off, or use metered taxis.",
+      "Carry small baht notes for markets, ferries and street-food stalls.",
+    ],
+    gallery: [
+      { src: u("photo-1552465011-b4e21bf6e79a"), alt: "Longtail boats on a Krabi beach" },
+      { src: u("photo-1528181304800-259b08848526"), alt: "Golden Thai temple and chedi" },
+      { src: u("photo-1506665531195-3566af2b4dfa"), alt: "Phi Phi islands viewpoint" },
+    ],
+    featured: true,
+  },
+  {
+    id: "dest-maldives",
+    slug: "maldives",
+    name: "Maldives",
+    country: "Maldives",
+    region: "Indian Ocean · Coral Atolls",
+    tagline: "Overwater villas, glass-clear lagoons",
+    heroImage: u("photo-1514282401047-d79a71a590e8"),
+    thumbnail: u("photo-1514282401047-d79a71a590e8", 900),
+    overview:
+      "A scatter of coral islands where the sea glows in every shade of blue. The Maldives is the definition of barefoot luxury — private overwater villas with steps into the lagoon, house reefs alive with rays and turtles, and sandbanks made for two. Snorkel straight off your deck, dine under the stars, and let the days dissolve into sea and sky.",
+    bestTimeToVisit:
+      "November–April for sunny skies, calm seas and the clearest underwater visibility. May–October brings occasional rain and lower rates.",
+    seasons: ["Winter", "Spring"],
+    tripTypes: ["Honeymoon", "Luxury", "Family"],
+    attractions: [
+      { title: "Overwater Villas", description: "Private decks, glass floors and steps straight down into the turquoise lagoon." },
+      { title: "Snorkelling & Diving", description: "Vibrant house reefs with manta rays, reef sharks, turtles and whale sharks." },
+      { title: "Sandbank Picnics", description: "Castaway lunches on a private strip of sand in the middle of the ocean." },
+      { title: "Sunset Dolphin Cruises", description: "Dhoni sails into the sunset amid pods of spinner dolphins." },
+      { title: "Overwater Spas", description: "Treatments above the reef, with the sea visible through the floor." },
+    ],
+    travelTips: [
+      "Resorts sit on private islands — book seaplane or speedboat transfers with your stay.",
+      "Most resorts are all-inclusive; carry minimal cash, as cards are used island-wide.",
+      "Reef-safe sunscreen is required at many resorts to protect the coral.",
+    ],
+    gallery: [
+      { src: u("photo-1514282401047-d79a71a590e8"), alt: "Aerial of Maldives overwater villas" },
+      { src: u("photo-1544550581-5f7ceaf7f992"), alt: "Boardwalk to overwater bungalows" },
+      { src: u("photo-1590523741831-ab7e8b8f9c7f"), alt: "Palm-fringed Maldives beach" },
+    ],
+    featured: true,
   },
 ];

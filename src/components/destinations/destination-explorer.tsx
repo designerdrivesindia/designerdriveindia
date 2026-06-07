@@ -35,7 +35,7 @@ export function DestinationExplorer({ destinations }: { destinations: Destinatio
     <div>
       <div className="flex flex-col gap-4 border-b border-line pb-8">
         <Row label="Country" options={COUNTRIES} value={country} onChange={setCountry} />
-        <Row label="Season" options={SEASONS} value={season} onChange={setSeason} />
+        {/* <Row label="Season" options={SEASONS} value={season} onChange={setSeason} /> */}
         <Row label="Trip type" options={TRIP_TYPES} value={tripType} onChange={setTripType} />
       </div>
 

@@ -52,7 +52,7 @@ export default async function BlogPostPage({
           articleSchema(post),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Journal", path: "/blog" },
+            { name: "Blog", path: "/blog" },
             { name: post.title, path: `/blog/${post.slug}` },
           ]),
         ]}
@@ -62,7 +62,7 @@ export default async function BlogPostPage({
         title={post.title}
         breadcrumbs={[
           { name: "Home", path: "/" },
-          { name: "Journal", path: "/blog" },
+          { name: "Blog", path: "/blog" },
           { name: post.title },
         ]}
       />

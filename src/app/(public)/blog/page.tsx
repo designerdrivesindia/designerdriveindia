@@ -13,7 +13,7 @@ import { formatDate } from "@/lib/utils";
 import { getBlogPosts } from "@/server/repositories";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Travel Journal",
+  title: "Travel Blog",
   description:
     "Destination guides, seasonal advice and field notes from the road — written by the Designer Drives India travel specialists.",
   path: "/blog",
@@ -29,14 +29,14 @@ export default async function BlogPage() {
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", path: "/" },
-          { name: "Journal", path: "/blog" },
+          { name: "Blog", path: "/blog" },
         ])}
       />
       <PageHero
-        eyebrow="The journal"
+        eyebrow="The Blog"
         title="Stories & travel notes"
         intro="Guides, seasonal advice and field notes from the road — to help you travel better."
-        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Journal" }]}
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Blog" }]}
       />
 
       <section className="py-14 lg:py-20">

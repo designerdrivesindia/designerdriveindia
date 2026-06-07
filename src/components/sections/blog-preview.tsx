@@ -12,12 +12,12 @@ export async function BlogPreview() {
       <Container>
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
-            eyebrow="The journal"
+            eyebrow="The Blog"
             title="Stories & travel notes"
             intro="Guides, seasonal advice and field notes from the road, written by our destination specialists."
           />
           <ButtonLink href="/blog" variant="outline" size="md" className="hidden md:inline-flex">
-            Read the Journal
+            Read the Blog
           </ButtonLink>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">

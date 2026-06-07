@@ -41,7 +41,7 @@ export const mainNav: NavItem[] = [
   { label: "Destinations", href: "/destinations" },
   { label: "Tour Packages", href: "/packages" },
   { label: "Car Rentals", href: "/cars" },
-  { label: "Journal", href: "/blog" },
+  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -57,6 +57,6 @@ export const footerExplore: NavItem[] = [
   { label: "Tour Packages", href: "/packages" },
   { label: "Destinations", href: "/destinations" },
   { label: "Car Rentals", href: "/cars" },
-  { label: "Travel Journal", href: "/blog" },
+  { label: "Travel Blog", href: "/blog" },
   { label: "Plan My Trip", href: "/contact" },
 ];

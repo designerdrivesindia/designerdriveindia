@@ -29,6 +29,9 @@ export const countryEnum = pgEnum("country", [
   "Nepal",
   "Bhutan",
   "Sri Lanka",
+  "Dubai",
+  "Thailand",
+  "Maldives",
 ]);
 
 export const carCategoryEnum = pgEnum("car_category", [
