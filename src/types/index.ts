@@ -15,7 +15,8 @@ export type TripType =
   | "Group Tour"
   | "Private Tour"
   | "Student college Tour"
-  | "Education Tour";
+  | "Education Tour"
+  | "Group";
 
 export type Season = "Spring" | "Summer" | "Monsoon" | "Autumn" | "Winter";
 
