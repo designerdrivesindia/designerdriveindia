@@ -3,47 +3,38 @@ import type { Testimonial } from "@/types";
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Ananya & Rohan Mehta",
-    location: "Mumbai",
-    trip: "Kashmir Signature Valley",
+    name: "International Guest",
+    location: "Overseas",
+    trip: "Golden Triangle Tour",
     rating: 5,
     quote:
-      "Our honeymoon was flawless from the first call. The houseboat, the driver, the little surprises — it felt genuinely personal, never packaged.",
+      "Deepak and his team made our India trip absolutely stress-free. Every detail was perfectly organized, from airport pickup to hotel bookings and sightseeing tours. We felt safe, comfortable, and well taken care of throughout our journey.",
   },
   {
     id: "t2",
-    name: "Colonel S. Rao (Retd.)",
-    location: "Bengaluru",
-    trip: "Ladakh High Passes Expedition",
+    name: "Family Traveller",
+    location: "India",
+    trip: "Rajasthan Heritage Tour",
     rating: 5,
     quote:
-      "I've travelled widely. Designer Drives' attention to acclimatisation and their calm, capable mountain driver set them apart. Truly trustworthy.",
+      "Our Rajasthan tour exceeded all expectations. The driver was professional, knowledgeable, and always punctual. We experienced the true culture and hospitality of Rajasthan.",
   },
   {
     id: "t3",
-    name: "The Kapoor Family",
-    location: "Delhi",
-    trip: "Kerala Backwaters & Hills",
+    name: "Couple from Europe",
+    location: "Europe",
+    trip: "Customised India Tour",
     rating: 5,
     quote:
-      "Three generations travelling together — and they anticipated every need. The private houseboat night was the highlight of our year.",
+      "Designer Drives India provided excellent service and customized our itinerary exactly according to our interests. We highly recommend them to anyone visiting India.",
   },
   {
     id: "t4",
-    name: "Sarah Whitman",
-    location: "London, UK",
-    trip: "Rajasthan Royal Heritage",
+    name: "Domestic Tourist",
+    location: "India",
+    trip: "Golden Triangle Tour",
     rating: 5,
     quote:
-      "Seamless, elegant and beautifully organised. Someone was always reachable, and every hotel exceeded what the photos promised.",
-  },
-  {
-    id: "t5",
-    name: "Pooja Nair",
-    location: "Pune",
-    trip: "Bhutan — Land of Happiness",
-    rating: 5,
-    quote:
-      "From visas to the Tiger's Nest hike, everything was handled. I simply showed up and was looked after. I've already booked my next trip.",
+      "From the moment we arrived until our departure, everything was handled professionally. Deepak's local knowledge and personal attention made all the difference.",
   },
 ];

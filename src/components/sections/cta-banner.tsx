@@ -18,14 +18,15 @@ export function CtaBanner() {
           <div className="absolute inset-0 bg-ink/70" />
           <div className="relative z-10 mx-auto max-w-2xl">
             <h2 className="font-heading text-3xl font-medium leading-tight text-cream md:text-5xl">
-              Ready to design your journey?
+              Ready to explore Incredible India?
             </h2>
             <p className="mt-4 text-base text-cream/80 md:text-lg">
-              Tell us how you like to travel. We&apos;ll craft a tailored
-              itinerary, with no obligation and no pushy sales.
+              Request your free tour consultation today. Contact us via WhatsApp,
+              phone or email and we&apos;ll craft a customised itinerary tailored to
+              your interests and budget — with no obligation.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <PlanTripButton variant="gold" size="lg">Plan My Trip</PlanTripButton>
+              <PlanTripButton variant="gold" size="lg">Book Your Tour Now</PlanTripButton>
               <ButtonLink href="/packages" variant="outline-light" size="lg">
                 Browse Packages
               </ButtonLink>

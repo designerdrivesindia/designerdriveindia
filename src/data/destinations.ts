@@ -51,7 +51,7 @@ export const destinations: Destination[] = [
     bestTimeToVisit:
       "May–September, when the high passes of Khardung La and Chang La are open and roads from Manali and Srinagar are clear.",
     seasons: ["Summer", "Autumn"],
-    tripTypes: ["Adventure", "Group", "Luxury"],
+    tripTypes: ["Adventure", "Group Tour", "Luxury"],
     attractions: [
       { title: "Pangong Tso", description: "A 134-km lake that shifts through every shade of blue with the sun." },
       { title: "Nubra Valley", description: "Sand dunes, double-humped camels and the road over Khardung La." },
@@ -150,7 +150,7 @@ export const destinations: Destination[] = [
     bestTimeToVisit:
       "October–November and March–April for clear mountain views and gentle trekking weather.",
     seasons: ["Autumn", "Spring"],
-    tripTypes: ["Adventure", "Pilgrimage", "Group"],
+    tripTypes: ["Adventure", "Pilgrimage", "Group Tour"],
     attractions: [
       { title: "Kathmandu Durbar Squares", description: "UNESCO temple courtyards of Patan, Bhaktapur and Kathmandu." },
       { title: "Pokhara & Phewa Lake", description: "Lakeside calm with the Annapurna range as backdrop." },

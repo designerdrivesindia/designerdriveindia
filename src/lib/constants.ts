@@ -53,26 +53,26 @@ export const TRAVELLER_OPTIONS = ["1", "2", "3-4", "5-8", "9+"] as const;
 export const WHY_CHOOSE_US = [
   {
     icon: "ShieldCheck",
-    title: "Trusted Local Drivers",
+    title: "Government-Approved Guide",
     description:
-      "Vetted, courteous chauffeurs who know every bend of the mountain roads — your journey, in safe hands.",
+      "Led by a Ministry of Tourism–certified guide with nearly a decade of hands-on experience across Incredible India.",
   },
   {
     icon: "Map",
-    title: "Personalised Itineraries",
+    title: "Customized Travel Planning",
     description:
-      "No cookie-cutter tours. Every route, stay and stop is shaped around the way you like to travel.",
+      "Flexible, tailor-made itineraries shaped around your interests, pace and budget — never a fixed template.",
   },
   {
     icon: "Globe2",
-    title: "Pan-India & Himalayan Reach",
+    title: "Licensed Multi-Lingual Guides",
     description:
-      "From Kashmir to Kerala, Nepal to Bhutan — one trusted partner for the entire subcontinent.",
+      "Professional English-speaking drivers and licensed guides fluent in Spanish, Italian, German, Russian and French.",
   },
   {
     icon: "Headset",
-    title: "24/7 On-Trip Support",
+    title: "24/7 Travel Assistance",
     description:
-      "A real person on the line at any hour. We stay with you from first enquiry to safe return home.",
+      "Competitive pricing, safe and comfortable transport, and a real person reachable at any hour of your trip.",
   },
 ] as const;

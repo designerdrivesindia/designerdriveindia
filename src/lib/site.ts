@@ -6,22 +6,23 @@
 export const siteConfig = {
   name: "Designer Drives India",
   shortName: "Designer Drives",
-  tagline: "Curated journeys across India & the Himalayas",
+  tagline: "Creating memorable journeys across Incredible India",
   description:
-    "Designer Drives India crafts bespoke, chauffeur-driven tours across Kashmir, Ladakh, Kerala, Rajasthan, Nepal, Bhutan & Sri Lanka. Hand-picked stays, private vehicles and effortless, trusted travel planning.",
+    "Designer Drives India is a Jaipur-based travel company crafting bespoke, chauffeur-driven tours across the Golden Triangle, Rajasthan, Kerala and beyond. Handpicked stays, private vehicles, licensed guides and effortless, trusted travel planning.",
   url: "https://www.designerdrivesindia.com",
   locale: "en_IN",
   ogImage: "/og/default.jpg",
 
   contact: {
-    phone: "+91 98765 43210",
-    phoneHref: "tel:+919876543210",
-    whatsapp: "919876543210",
-    email: "journeys@designerdrivesindia.com",
-    address: "2nd Floor, Heritage Arcade, MG Road, Gangtok, Sikkim 737101, India",
+    phone: "+91 98294 27706",
+    phoneHref: "tel:+919829427706",
+    whatsapp: "919829427706",
+    email: "info@designerdrivesindia.com",
+    address:
+      "A-71, Maa Karni Nagar, Karni Palace Road, Vaishali Nagar, Jaipur, Rajasthan – 302021, India",
     mapEmbed:
-      "https://www.google.com/maps?q=Gangtok%20Sikkim&output=embed",
-    hours: "Mon – Sat · 9:30 AM – 7:00 PM IST",
+      "https://www.google.com/maps?q=Vaishali%20Nagar%20Jaipur%20Rajasthan&output=embed",
+    hours: "Mon – Sun · 8:00 AM – 8:00 PM IST",
   },
 
   social: {

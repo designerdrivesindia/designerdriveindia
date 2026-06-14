@@ -24,12 +24,16 @@ const values = [
 ];
 
 const services = [
-  "Bespoke tour planning across India, Nepal, Bhutan & Sri Lanka",
-  "Private, chauffeur-driven vehicles for every group size",
-  "Handpicked hotels, houseboats and heritage stays",
-  "Honeymoons, family holidays, group & corporate travel",
-  "On-trip support, 24 hours a day",
-  "Visa, permit and logistics handling",
+  "Customized tour packages",
+  "Golden Triangle tours",
+  "Rajasthan heritage tours",
+  "Kerala & South India tours",
+  "Private car & driver services",
+  "Airport transfers",
+  "Hotel reservations",
+  "Licensed tour guides",
+  "Domestic flight assistance",
+  "Group tour management",
 ];
 
 // const team = [
@@ -61,28 +65,31 @@ export default function AboutPage() {
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <Reveal>
-              <span className="eyebrow">Our mission</span>
+              <span className="eyebrow">Welcome</span>
               <h2 className="mt-3 font-heading text-3xl leading-tight text-ink md:text-4xl">
-                Curated journeys, run by people who care
+                Welcome to Designer Drives India
               </h2>
               <div className="mt-5 space-y-4 text-base leading-relaxed text-ink-soft">
                 <p>
-                  Designer Drives India began in 2014 with a simple frustration: travel
-                  to the places we love had become transactional. Cookie-cutter packages,
-                  hidden charges, call-centre hand-offs.
+                  Namaste — and welcome to Designer Drives India, your trusted travel
+                  partner for discovering the beauty, culture, history and diversity of
+                  India. Based in Jaipur, Rajasthan, we specialise in the iconic Golden
+                  Triangle of Delhi, Agra and Jaipur, the royal palaces of Rajasthan and
+                  the tranquil backwaters of Kerala.
                 </p>
                 <p>
-                  So we built the opposite. A lead with one specialist from first enquiry
-                  to safe return. Itineraries designed around you, not a template. Drivers
-                  and hosts we know personally. And the kind of quiet, dependable service
-                  that turns first-time guests into friends who keep coming back.
+                  Whether you are visiting for the first time or returning to explore
+                  more of this incredible country, we design personalised travel
+                  experiences that let you see India at your own pace. Our mission is
+                  simple: exceptional service, authentic experiences and complete peace
+                  of mind — from the moment you arrive until your departure.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={120} className="relative aspect-[4/5] overflow-hidden rounded-xl">
               <Image
-                src="https://i0.wp.com/sweettravelbee.com/wp-content/uploads/2024/09/img_7477-1.jpg?fit=1516%2C2100&ssl=1?w=300&dpr=2?auto=format&fit=crop&w=1200&q=80"
-                alt="A serene Kashmir morning"
+                src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80"
+                alt="Hawa Mahal in Jaipur, Rajasthan"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -126,33 +133,60 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      {/* Team */}
-      {/* <section className="bg-ink py-16 text-cream lg:py-24">
+      {/* Founder */}
+      <section className="bg-ink py-16 text-cream lg:py-24">
         <Container>
-          <SectionHeading light align="center" eyebrow="The people" title="Meet the team" intro="Specialists who live and breathe these regions — and stay with you the whole way." />
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {team.map((m, i) => (
-              <Reveal key={m.name} delay={(i % 4) * 80}>
-                <div className="overflow-hidden rounded-xl bg-ink-soft/40">
-                  <div className="relative aspect-[3/4]">
-                    <Image
-                      src={`https://images.unsplash.com/${m.img}?auto=format&fit=crop&w=700&q=80`}
-                      alt={m.name}
-                      fill
-                      sizes="(max-width: 768px) 50vw, 25vw"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <p className="font-heading text-xl text-cream">{m.name}</p>
-                    <p className="mt-1 text-sm text-gold-soft">{m.role}</p>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
+          <SectionHeading
+            light
+            align="center"
+            eyebrow="The people"
+            title="Meet the founder — Deepak Meena"
+            intro="Founder & Managing Director, and a Government of Rajasthan approved tour guide certified by the Ministry of Tourism."
+          />
+          <div className="mx-auto mt-12 grid max-w-5xl gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <Reveal className="rounded-xl border border-cream/15 bg-ink-soft/40 p-8 text-center">
+              <span className="mx-auto flex size-24 items-center justify-center rounded-full bg-gold/15 font-heading text-4xl text-gold-soft">
+                DM
+              </span>
+              <p className="mt-5 font-heading text-2xl text-cream">Deepak Meena</p>
+              <p className="mt-1 text-sm text-gold-soft">Founder & Managing Director</p>
+              <ul className="mt-6 space-y-2.5 text-left text-sm text-cream/70">
+                {[
+                  "Government-approved, Ministry of Tourism–certified guide",
+                  "Nearly a decade in the tourism industry",
+                  "Active group tour handler & tour escort",
+                ].map((c) => (
+                  <li key={c} className="flex items-start gap-2.5">
+                    <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-gold" /> {c}
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+            <Reveal delay={120} className="space-y-4 text-base leading-relaxed text-cream/75">
+              <p>
+                With nearly ten years of experience in the tourism industry, Deepak has
+                worked extensively with travellers from around the world, helping them
+                experience the rich culture, history and traditions of India. Before
+                establishing Designer Drives India, he spent more than eight years
+                helping run one of Jaipur&apos;s leading tour operations.
+              </p>
+              <p>
+                Born and raised in a tribal village near Jaipur, Deepak developed a deep
+                appreciation for India&apos;s cultural heritage early on. He later pursued
+                his higher education in Delhi under the mentorship of Professor Jagdish
+                Chander of Hindu College, University of Delhi.
+              </p>
+              <p>
+                Known for his warm personality, local knowledge and dedication to guest
+                satisfaction, Deepak built Designer Drives India entirely through
+                word-of-mouth recommendations. Today he remains personally involved in
+                day-to-day operations, ensuring every guest enjoys an authentic,
+                professional and personalised journey.
+              </p>
+            </Reveal>
           </div>
         </Container>
-      </section> */}
+      </section>
 
       <CtaBanner />
     </>
