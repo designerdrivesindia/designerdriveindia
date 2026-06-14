@@ -1,6 +1,7 @@
 import { PageHero } from "@/components/layout/page-hero";
 import { Container } from "@/components/ui/container";
 import { formatDate } from "@/lib/utils";
+import { siteConfig } from "@/lib/site";
 import type { LegalDoc } from "@/data/legal";
 
 export function LegalPage({ doc }: { doc: LegalDoc }) {
@@ -32,8 +33,12 @@ export function LegalPage({ doc }: { doc: LegalDoc }) {
           </div>
           <p className="mt-12 rounded-lg bg-sand p-5 text-sm text-ink-muted">
             Questions about this policy? Email us at{" "}
-            <a href="mailto:journeys@designerdrivesindia.com" className="font-medium text-ink underline underline-offset-2">
-              journeys@designerdrivesindia.com
+            <a href={`mailto:${siteConfig.contact.email}`} className="font-medium text-ink underline underline-offset-2">
+              {siteConfig.contact.email}
+            </a>
+            {" "}or WhatsApp{" "}
+            <a href={`https://wa.me/${siteConfig.contact.whatsapp}`} className="font-medium text-ink underline underline-offset-2">
+              {siteConfig.contact.phone}
             </a>
             .
           </p>

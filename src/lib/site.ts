@@ -51,7 +51,7 @@ export const legalNav: NavItem[] = [
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Terms & Conditions", href: "/terms-and-conditions" },
   { label: "Cancellation Policy", href: "/cancellation-policy" },
-  { label: "Refund Policy", href: "/refund-policy" },
+  { label: "Refund & Payment Policy", href: "/refund-policy" },
 ];
 
 export const footerExplore: NavItem[] = [

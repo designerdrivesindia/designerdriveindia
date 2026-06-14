@@ -31,13 +31,13 @@ export function CarCard({ car }: { car: Car }) {
           <span className="inline-flex items-center gap-1.5"><Cog className="size-4 text-gold-deep" /> {car.transmission}</span>
         </div>
         <div className="mt-4 flex items-end justify-between border-t border-line pt-4">
-          <div>
+          {/* <div>
             <p className="text-[0.7rem] uppercase tracking-wide text-ink-muted">From</p>
             <p className="font-heading text-lg font-semibold text-ink">
               {formatINR(car.pricePerDay)}
               <span className="ml-1 text-xs font-normal text-ink-muted">/ day</span>
             </p>
-          </div>
+          </div> */}
           <Link
             href={`/cars/${car.slug}`}
             className="text-sm font-semibold text-gold-deep transition-colors hover:text-ink"
