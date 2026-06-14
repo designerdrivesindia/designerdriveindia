@@ -110,7 +110,7 @@ rate-limited per IP, re-validated server-side, and persisted to the `inquiries`
 table for the admin CRM. Without a DB the submission is acknowledged but not
 stored, so the forms stay demonstrable in dev.
 
-## SEO
+## SEO&MARKETING
 
 - Per-route `generateMetadata` (title template, OG, Twitter, canonical)
 - `sitemap.xml` + `robots.txt` generated from content
